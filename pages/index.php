@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../assets/img/linux.png" type="image/x-icon">
     <title>f9ki3</title>
     <link rel="stylesheet" href="../assets/css/color_palette.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -46,7 +47,7 @@
         </div>
         <div class="col-12 col-md-7">
             <div class="container p-4">
-            <p class="text-light mt-5">BTW, I'm Fyke Lleva, tackling the wild world of Information Technology at Pambayang Dalubhasaan ng Marilao. In the thick of my fourth year, I'm wrestling with my capstone project, pouring in the elbow grease. It's a struggle, but you know what they say — <b>hard work in, success out!</b></p>
+            <p class="text-light mt-5">BTW, I'm <a href="https://facebook.com/floz.stn" style="text-decoration: none;color: white">Fyke Lleva</a>, tackling the wild world of Information Technology at Pambayang Dalubhasaan ng Marilao. In the thick of my fourth year, I'm wrestling with my capstone project, pouring in the elbow grease. It's a struggle, but you know what they say — <b>hard work in, success out!</b></p>
             <p class="text-light mt-5">I dream of completing this projects, unlocking the door to embark on my On-the-Job Training and kickstart my professional journey.</p>    
         </div>
         </div>
