@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(24, 4, 43);
+    height: 100vh;
+    width: 25%;
+    
+}
+
