@@ -84,7 +84,7 @@
       </li>
       <li class="nav-item btn-sidebar rounded">
         <a href="#" class="nav-link text-light" aria-current="page">
-          <img class="bi pe-none me-2" width="16" src="../assets/img/article.png" height="16"><use xlink:href="#home"/></img>
+          <img class="bi pe-none me-2" width="16" src="../assets/img/email.png" height="16"><use xlink:href="#home"/></img>
           Messages
         </a>
       </li>
