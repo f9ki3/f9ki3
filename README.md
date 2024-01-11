@@ -6,14 +6,6 @@
 
 ###
 
-<h2 align="left">About me</h2>
-
-###
-
-<p align="left">- 🔭 aspiring software engineer soon<br>- 🌱 I’m passionate to learn new tech stack <br>- 👯 I’m looking for a mentor to grow my knowledge<br>- 🥅 My goal this 2024 is to finsih my studies</p>
-
-###
-
 <h2 align="left">Technology and Tools:</h2>
 
 ###
