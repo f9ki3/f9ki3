@@ -1,4 +1,4 @@
-<h1 align="left">Meet f9ki3, your Python virtuoso – Turning ideas into code, one line at a time.</h1>
+<img src="assets/img/intro.gif">
 
 ###
 
