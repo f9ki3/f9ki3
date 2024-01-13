@@ -1,4 +1,4 @@
-<img src="assets/img/intro.gif">
+<img src="assets/img/your_cool_intro(6).gif">
 
 ###
 
