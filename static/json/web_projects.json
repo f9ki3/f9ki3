@@ -1,0 +1,102 @@
+{
+    "web-projects": "Web-based Projects",
+    "projects": [
+      {
+        "id": 1,
+        "title": "RDPOS (Inventory and Point of Sales System)",
+        "technology": "PHP & MySQL",
+        "img1": "/static/uploads/rdpos_point_of_sales/369548942_636228448585418_8561759831227337263_n.png",
+        "img2": "/static/uploads/rdpos_point_of_sales/371514096_1030481544837125_4108647613635516524_n.png",
+        "img3": "/static/uploads/rdpos_point_of_sales/368058624_719289712950882_6257547466042524007_n.png",
+        "img4": "/static/uploads/rdpos_point_of_sales/368291065_297298076520506_361632813528244874_n.png",
+        "img5": "/static/uploads/rdpos_point_of_sales/370122492_2342525709471338_5693339919106143333_n.png",
+        "video": "",
+        "description": "RDPOS, or R De Leon Poultry Supplies, is a comprehensive inventory management system equipped with a user-friendly point-of-sale interface. Streamlining operations, it seamlessly integrates barcode scanning technology for efficient product tracking. With a built-in thermal printer, RDPOS ensures swift and accurate transactions, enhancing the overall efficiency of poultry supply management."
+      },
+      {
+        "id": 2,
+        "title": "Nutratech (Inventory System)",
+        "technology": "PHP & MySQL",
+        "img1": "/static/uploads/nutratech/Screenshot from 2024-01-29 11-50-51.png",
+        "img2": "/static/uploads/nutratech/Screenshot from 2024-01-29 11-51-02.png",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "video": "",
+        "description": "Nutratech Inventory System efficiently tracks incoming and outgoing stocks, providing real-time visibility. Streamlined for accuracy, it monitors stock levels, manages restocking alerts, and records item destinations. This system enhances inventory control, ensuring seamless operations and optimizing resource utilization for Nutratech's diverse product portfolio."
+      },
+      {
+        "id": 3,
+        "title": "DigiLearn (Learning Material Downloading site & CMS)",
+        "technology": "PHP & MySQL",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "video": "",
+        "description": "DigiLearn, your digital learning hub, offers a vast repository of educational resources. Accessible on our user-friendly website, users can effortlessly download enriching learning materials in PDF format. Empower your educational journey with DigiLearn's comprehensive collection, fostering a seamless and convenient learning experience for all."
+      },
+      {
+        "id": 4,
+        "title": "Jhores Trading (Ordering and Billing System)",
+        "technology": "PHP & MySQL",
+        "img1": "/static/uploads/jhores_trading/Screenshot from 2024-01-27 11-12-58.png",
+        "img2": "/static/uploads/jhores_trading/Screenshot from 2024-01-27 11-13-21.png",
+        "img3": "", 
+        "img4": "",
+        "img5": "",
+        "video": "",
+        "description": "Jhores Trading, your premier ordering and billing solution, simplifies the customer experience. With a user-friendly interface, customers can effortlessly create accounts, browse products, and place orders on our website. Enjoy seamless transactions and efficient billing, making Jhores Trading your go-to platform for hassle-free and convenient online commerce."
+      },
+      {
+        "id": 5,
+        "title": "OSID Front End",
+        "technology": "HTML, CSS, Bootstrap",
+        "img1": "/static/uploads/OSID_UI/Screenshot from 2024-01-26 19-53-25.png",
+        "img2": "/static/uploads/OSID_UI/Screenshot from 2024-01-26 19-53-43.png",
+        "img3": "/static/uploads/OSID_UI/Screenshot from 2024-01-26 19-54-12.png",
+        "img4": "",
+        "img5": "",
+        "video": "",
+        "description": "OSID (One-Stop Interface Design) is a user-friendly interface crafted using Bootstrap and Nicepage. Leveraging the power of Bootstrap's responsive framework and Nicepage's design capabilities, OSID ensures a seamless and visually appealing user experience. It combines functionality with aesthetics, providing an intuitive interface for a diverse range of users."
+      },
+      {
+        "id": 6,
+        "title": "RDPOS Front End",
+        "technology": "HTML, CSS, Bootstrap",
+        "img1": "/static/uploads/RDPOS_UI/Screenshot from 2024-01-26 19-51-29.png",
+        "img2": "/static/uploads/RDPOS_UI/Screenshot from 2024-01-26 19-52-07.png",
+        "img3": "/static/uploads/RDPOS_UI/Screenshot from 2024-01-26 19-52-21.png",
+        "img4": "/static/uploads/RDPOS_UI/Screenshot from 2024-01-26 19-52-51.png",
+        "img5": "/static/uploads/RDPOS_UI/Screenshot from 2024-01-26 19-53-03.png",
+        "video": "",
+        "description": "RDPOS is a frontend design tailored for ordering and billing websites. With a user-centric approach, it enhances the dining experience by offering an intuitive interface for placing orders and managing bills. RDPOS integrates a sleek design, ensuring efficiency and satisfaction in restaurant transactions."
+      },
+      {
+        "id": 7,
+        "title": "Ilert (Facial Recognition Attendance Monitoring)",
+        "technology": "Python, Flask & CSV",
+        "img1": "/static/uploads/Ilert/Screenshot from 2024-01-26 19-56-34.png",
+        "img2": "/static/uploads/Ilert/Screenshot from 2024-01-26 19-56-43.png",
+        "img3": "/static/uploads/Ilert/Screenshot from 2024-01-26 19-57-30.png",
+        "img4": "/static/uploads/Ilert/Screenshot from 2024-01-26 19-59-00.png",
+        "img5": "/static/uploads/Ilert/Screenshot from 2024-01-26 19-58-44.png",
+        "video": "",
+        "description": "I-lert, an advanced Attendance Monitoring system tailored for Rizal Technological University, harnesses Python, OpenCV, and CSV to optimize attendance tracking. This web-based solution incorporates facial recognition technology, ensuring a secure and efficient attendance management experience. I-lert revolutionizes traditional methods, offering unparalleled accuracy and convenience. By seamlessly integrating cutting-edge technology, it empowers Rizal Technological University to effortlessly manage attendance, marking a significant step forward in modern education administration."
+      },
+      {
+        "id": 8,
+        "title": "f9ki3 Portfolio (Content Management System)",
+        "technology": "Python, Flask & SQLite",
+        "img1": "/static/uploads/f9ki3/Screenshot from 2024-01-27 12-23-00.png",
+        "img2": "/static/uploads/f9ki3/Screenshot from 2024-01-29 12-15-19.png",
+        "img3": "/static/uploads/f9ki3/Screenshot from 2024-01-29 12-15-28.png",
+        "img4": "/static/uploads/f9ki3/Screenshot from 2024-01-29 12-15-37.png",
+        "img5": "",
+        "video": "",
+        "description": "It is a self-developed Content Management System, is crafted using Python and Flask. This user-friendly website empowers me to effortlessly update and manage content, serving as a testament to my proficiency in web development. Included in my portfolio, F9ki3 showcases not only my technical skills but also my commitment to creating practical and efficient solutions for personal and professional use."
+      }
+    ]
+  }
+  

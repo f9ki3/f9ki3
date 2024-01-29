@@ -1,0 +1,55 @@
+{
+    "console_projects": "Console-Based Projects",
+    "projects": [
+      {"title": "f9ki3 Burger Shop",
+      "technology": "python",
+        "img1": "/static/uploads/f9ki3_burger_shop/Screenshot from 2024-01-27 17-02-11.png",
+        "img2": "/static/uploads/f9ki3_burger_shop/Screenshot from 2024-01-27 17-03-42.png",
+        "img3": "/static/uploads/f9ki3_burger_shop/Screenshot from 2024-01-27 17-03-55.png",
+        "description": "F9ki3 Burger Shop is a console-based application designed for streamlined user interaction. Customers input their name, order details, and receive a calculated total with applicable discounts. This efficient system simplifies the ordering process, providing a user-friendly experience for quick and accurate transactions."
+    },
+      {"title": "Odd or Even",
+      "technology": "python",
+      "img1": "/static/uploads/odd_even/Screenshot from 2024-01-27 17-05-10.png",
+        "img2": "/static/uploads/odd_even/Screenshot from 2024-01-27 17-05-23.png",
+        "img3": "/static/uploads/odd_even/Screenshot from 2024-01-27 17-05-33.png",
+      "description": "In this Python program, users input a numerical value. The code evaluates whether the number is odd or even, displaying the result. A simple and interactive way for users to determine the parity of a given value using the power of Python programming."
+    },
+      {"title": "Pula Puti",
+      "technology": "python",
+      "img1": "/static/uploads/pula_puti/Screenshot from 2024-01-27 17-06-25.png",
+        "img2": "/static/uploads/pula_puti/Screenshot from 2024-01-27 17-06-31.png",
+        "img3": "/static/uploads/pula_puti/Screenshot from 2024-01-27 17-06-41.png",
+      "description": "Pula or Puti is a Python-based color betting game. Players predict whether the randomly generated color is red or white. The game engages users with a simple and entertaining experience, combining chance and decision-making in a fun way within the Python programming environment."
+    },
+      {"title": "Rock Paper Scissors",
+      "technology": "python",
+      "img1": "/static/uploads/rock_paper_scissors/Screenshot from 2024-01-27 17-07-27.png",
+        "img2": "/static/uploads/rock_paper_scissors/Screenshot from 2024-01-27 17-07-43.png",
+        "img3": "/static/uploads/rock_paper_scissors/Screenshot from 2024-01-27 17-07-57.png",
+      "description": "The Python-based Rock, Paper, Scissors game offers a classic and interactive experience. Users input their choice, competing against the computer's random selection. With simple rules and engaging gameplay, this program provides entertainment while showcasing Python's versatility in creating enjoyable games."
+    },
+      {"title": "Tape Measure App",
+      "technology": "python",
+      "img1": "/static/uploads/tape_measure/Screenshot from 2024-01-27 17-08-30.png",
+        "img2": "/static/uploads/tape_measure/Screenshot from 2024-01-27 17-09-03.png",
+        "img3": "",
+      "description": "The Philippine Tape Measure Standard Unit Converter in Python streamlines measurements, allowing users to convert between inches, centimeters, and feet. With precision aligned to Philippine standards, this tool ensures accuracy and convenience in construction or daily tasks, adapting seamlessly to diverse measurement requirements."
+    },
+      {"title": "Test Score App",
+      "technology": "python",
+      "img1": "/static/uploads/test_score/Screenshot from 2024-01-27 17-10-35.png",
+        "img2": "/static/uploads/test_score/Screenshot from 2024-01-27 17-10-53.png",
+        "img3": "",
+      "description": "The Python-based Test Score Calculator efficiently assesses performance. Inputting total items and personal score, users receive a pass/fail outcome and an assigned grade (A to F). This intuitive program aids in academic evaluation, offering quick insights into success based on the provided criteria."
+    },
+      {"title": "Two Rolling Dice",
+      "technology": "python",
+      "img1": "/static/uploads/two_rolling_dice/Screenshot from 2024-01-27 17-11-12.png",
+        "img2": "/static/uploads/two_rolling_dice/Screenshot from 2024-01-27 17-11-20.png",
+        "img3": "",
+      "description": "The Python program Two Rolling Dice simulates the randomness of dice throws. Users witness the outcome of two dice rolls, generating diverse numerical combinations. This engaging program provides a visual representation of the inherent unpredictability in rolling two dice, showcasing Python's versatility in creating interactive simulations."
+    }
+    ]
+  }
+  

@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/color_palette.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgb(4, 10, 43);
+        }
+
+        .div-screen{
+            height: 400px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .div-screen{
+                height: 220px;
+            }
+            p{
+                font-size: 12px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row p-3">
+            <div class="col-md-7">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner rounded div-screen" >
+                          {% if img1 %}
+                            <div class="carousel-item active">
+                              <img src="{{img1}}" style="object-fit: cover; height: 100%; width: 100%" class="d-block w-100" alt="...">
+                            </div>
+                          {% endif %}
+                          {% if img2 %}
+                            <div class="carousel-item ">
+                              <img src="{{img2}}" style="object-fit: cover; height: 100%; width: 100%" class="d-block w-100" alt="...">
+                            </div>
+                          {% endif %}
+                          {% if img3 %}
+                            <div class="carousel-item ">
+                              <img src="{{img3}}" style="object-fit: cover; height: 100%; width: 100%" class="d-block w-100" alt="...">
+                            </div>
+                          {% endif %}
+                          {% if img4 %}
+                            <div class="carousel-item ">
+                              <img src="{{img4}}" style="object-fit: cover; height: 100%; width: 100%" class="d-block w-100" alt="...">
+                            </div>
+                          {% endif %}
+                          {% if img5 %}
+                            <div class="carousel-item activ">
+                              <img src="{{img5}}" style="object-fit: cover; height: 100%; width: 100%" class="d-block w-100" alt="...">
+                            </div>
+                          {% endif %}
+                          
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <div style="background-color: yellow; padding: 10px; border-radius: 100%">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              </div>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <div style="background-color: yellow; padding: 10px; border-radius: 100%">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          </div>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                
+            </div>
+            <div class="col-12 col-md-5 pt-4">
+                
+                    <h4 class="fw-bolder text-light">{{title}}</h4>
+                    <hr style="color: white;">
+                    <p style="text-align: justify;" class="text-light">({{description}})</p>
+
+                    <div style="display: flex; flex-direction: row">
+                        <a href="/#portfolio" class="btn w-50" style="background-color: yellow; margin-right: 5px">Browse More</a>
+                        <a href="https://www.linkedin.com/in/fykkkie/" class="btn w-50" style="border: 1px solid yellow; color: yellow">Connect Me</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

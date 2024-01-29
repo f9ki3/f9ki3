@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../assets/img/linux.png" type="image/x-icon">
+    <title>f9ki3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/color_palette.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body class="body">
+
+    <div class="container">
+        <div class="row  mt-5 py-5">
+            <div class="col-12 col-md-7 p-3 h-100">
+                <div class="container  p-4"  >
+                    <h1 class="text-light fw-bolder">Hello I'm <b style="color: yellow">f9ki3</b>. <br> Your aspiring fullstack Web Developer and IT Enthusiast.</h1>
+                    <a href="#about" onclick="about()" class=" btn btn-sm fw-bolder" style="background-color: yellow">Know Me</a>
+                    <a class="btn btn-sm fw-bolder" onclick="portfolio()" style="border: 1px solid yellow; color: yellow" href="#portfolio">Browse Portfolio</a>
+                    <hr style="color : yellow;" class="mt-5">
+                    <div>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/html.png') }}" class="p-0 m-0" style="width: 25px;" alt="html"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/css-3.png') }}" class="p-0 m-0" style="width: 25px;" alt="css"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/java-script.png') }}" class="p-0 m-0" style="width: 25px;" alt="js"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/php.png') }}" class="p-0 m-0" style="width: 35px;" alt="php"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/python.png') }}" class="p-0 m-0" style="width: 25px;" alt="python"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/sql.png') }}" class="p-0 m-0" style="width: 25px;" alt="sql"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/flask.png') }}" class="rounded p-0 m-0" style="width: 20px;" alt="flask"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/bootstrap.png') }}" class="rounded p-0 m-0" style="width: 25px; height: 25px" alt="boostrap"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/illustrator.png') }}" class="rounded p-0 m-0" style="width: 25px; height: 25px" alt="photoshop"></button>
+                        <button class="btn  mt-1"><img src="{{ url_for('static', filename='img/photoshop.png') }}" class="rounded p-0 m-0" style="width: 25px; height: 25px" alt="illustrator"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 h-100">
+                <div class="container p-4">
+                    <img src="{{url_for('static', filename='img/coding-animated-laptop-flow-stream-ja04010rm5o68zfk.webp')}}" class="rounded" style="object-fit: cover; width: 100%; height: 100%" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5  mt-5">
+            <div class="col-12 col-md-5">
+                <div class="container p-4">
+                <img src="{{url_for('static', filename='img/pic1.jpg')}}" class="rounded" style="object-fit: cover; width: 100%; height: 100%" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="container p-4">
+                <p class="text-light mt-5 text-justify animate-paragraph" style="text-align: justify;">I'm <a href="https://facebook.com/floz.stn" style="text-decoration: none;color: white">Fyke Lleva</a>, specializing in python programming. Tackling the wild world of Information Technology at Pambayang Dalubhasaan ng Marilao. In the thick of my fourth year, I'm wrestling with my capstone project, pouring in the elbow grease. It's a struggle, but you know what they say — <b>hardwork in, success out!</b></p>
+                <p class="text-light mt-5 text-justify animate-paragraph" style="text-align: justify;">I dream of completing this projects, unlocking the door to embark on my On-the-Job Training and kickstart my professional journey.</p>    
+            </div>
+            </div>
+        </div>
+
+        <div class="row sticky-top" style="background-color: rgb(4, 10, 43);;">
+            <div class="col-12 ">
+                <div class="container px-4 mt-2" >
+                    <button class="btn btn-sm mt-1" id="portfolio" onclick="portfolio()" style="background-color: yellow; ">Portfolio</button>
+                    <button class="btn btn-sm mt-1" id="about" onclick="about()" style="border: 1px solid yellow; color:  yellow">About Me</button>
+                    <button class="btn btn-sm mt-1" onclick="experience()" style="border: 1px solid yellow; color:  yellow">Experience</button>
+                    <button class="btn btn-sm mt-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="This top tooltip is themed via CSS variables." style="border: 1px solid yellow; color:  yellow">Blog</button>
+                    <button class="btn btn-sm mt-1" onclick="tech()" style="border: 1px solid yellow; color:  yellow">IT Technician</button>
+                    <button class="btn btn-sm mt-1" onclick="graphic_design()" style="border: 1px solid yellow; color:  yellow">Graphic Design</button>
+                    <hr style=" margin-top: 10px; margin-bottom: 10px; color: yellow">
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-4" id="div-web">
+            <h3 class="fw-bolder text-light">{{ projects_data["web-projects"] }}</h3>
+                {% for project in projects_data["projects"] %}
+                <div class="col-12 col-md-4 py-3">
+                    <a href="{{ url_for('view_project', title=project['title'], description=project['description'], img1=project['img1'], img2=project['img2'], img3=project['img3'], img4=project['img4'], img5=project['img5']) }}" style="text-decoration: none">
+                        <div class="container div-card rounded py-4 px-4" >
+                            <div class="rounded div-img">
+                                {% if project["img1"] %}
+                                    <img src="{{ project["img1"] }}" alt="screenshots" class="rounded">
+                                {% else %}
+                                    <img src="/static/img/placeholder.webp" alt="Placeholder" class="rounded">
+                                    <!-- Use an appropriate placeholder image or default image -->
+                                {% endif %}
+                            </div>
+                            <p class="mt-3 fw-bolder">{{ project["title"]}}{{ project["technology"] }}</p>
+                            <hr>
+                            <p style="text-align: justify;">{{ project["description"][:138] }}...</p>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+
+        </div>
+
+        <div class="row p-4" id="div-console">
+            <h3 class="fw-bolder text-light">{{ console_data["console_projects"] }}</h3>
+                {% for project in console_data["projects"] %}
+                <div class="col-12 col-md-4 py-3">
+                    <a href="{{ url_for('view_console', title=project['title'], description=project['description'], img1=project['img1'], img2=project['img2'], img3=project['img3'], img4=project['img4'], img5=project['img5']) }}" style="text-decoration: none">
+                        <div class="container div-card rounded py-4 px-4" >
+                            <div class="rounded div-img">
+                                {% if project["img1"] %}
+                                    <img src="{{ project["img1"] }}" alt="screenshots" class="rounded">
+                                {% else %}
+                                    <img src="/static/img/placeholder.webp" alt="Placeholder" class="rounded">
+                                    <!-- Use an appropriate placeholder image or default image -->
+                                {% endif %}
+                            </div>
+                            <p class="mt-3 fw-bolder">{{ project["title"]}} {{ project["technology"]}}</p>
+                            <hr>
+                            <p style="text-align: justify;">{{ project["description"][:138] }}...</p>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+
+        </div>
+        
+        <div class="row p-4" id="div-about" style="display: none;">
+            <div class="col-12 col-md-4">
+                <div>
+                    <div class="div-profile ">
+                        <div class="img-cover">
+                            <img class="rounded" src="{{url_for('static', filename='img/wall1.jpeg')}}" alt="">
+                        </div>
+                        <div class="img-profile">
+                            <img src="{{url_for('static', filename='img/fyke_square.png')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="profile-name mb-3"> 
+                        <h4 class="fw-bolder mt-3 text-light text-align">Fyke Lleva</h4>
+                        <a href="https://www.linkedin.com/in/fykkkie/" style="border: 1px solid yellow; color: yellow" class="btn btn-sm">Follow</a>
+                    </div>
+                    <hr style="color: white">
+                    <p class="text-light p-about p1" style="text-align: justify;">I'm a passionate IT enthusiast with a knack for Python development, specializing in Flask for web applications and a dedicated to learn new tech stack</p>
+                    <hr style="color: white">
+                        <p class="text-light fw-bold">Education:</p>
+                        <div class="school">
+                            <img style="height: 40px; width: 40px;" src="{{url_for('static', filename='img/pdm_logo.jpeg')}}" alt="">
+                            <p style="color: white;" class="p1">Pambayang Dalubhasaan ng Marilao</p>
+                        </div>
+                        <div class="school">
+                            <img style="height: 40px; width: 40px;" src="{{url_for('static', filename='img/harvard.jpg')}}" alt="">
+                            <p style="color: white;" class="p1">CS50 Harvard University</p>
+                        </div>
+                    <hr style="color: white">
+                        <p class="text-light fw-bold">Contact:</p>
+                        <div class="mb-3" style="display: flex; flex-direction:row; justify-content: space-between">
+                            <div>
+                                <div class="school">
+                                    <img style="height: 40px; width: 40px;" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/LinkedIN_white.svg" alt="linkedin">
+                                    <a style=" text-decoration: none; color: white" href="https://www.linkedin.com/in/fykkkie/" class="p1">fykkkie</a>
+                                </div>
+                                <div class="school">
+                                    <img style="height: 40px; width: 40px;" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Facebook_white.svg" alt="facebook">
+                                    <a style="text-decoration: none; color: white" href="https://web.facebook.com/FLOZ.STN/" class="p1">FLOZ.STN</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="school">
+                                    <img style="height: 40px; width: 40px;" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Instagram_white.svg" alt="instagram">
+                                    <a style="text-decoration: none; color: white" href="https://www.instagram.com/fykkkie/" class="p1">fykkkie</a>
+                                </div>
+                                <div class="school">
+                                    <img style="height: 40px; width: 40px;" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Github_white.svg" alt="github">
+                                    <a style="text-decoration: none; color: white" href="https://github.com/f9ki3" class="p1">f9ki3</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-8  rounded px-3 " >
+                <div class="img-intro ">
+                    <img class="rounded" src="{{url_for('static', filename='img/your_cool_intro(6).gif')}}">
+                </div>
+
+                <p class="mt-3 p1" style="color: white; text-align: justify">I'm Fyke Lleva, also known as f9ki3. Currently, I am a student pursuing a Bachelor of Science in Information Technology. Although I haven't graduated yet, I am in my 4th year and actively applying my knowledge by working on projects within my tech stack. I've created a repository containing small projects that serve as a practical reflection of what I've learned throughout my academic journey.</p>
+
+                <h4 class="fw-bolder mt-3 text-light text-align">Technology and Tools:</h4>
+
+                <div align="left">
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=django" height="40" alt="django logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=flask" height="40" alt="flask logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
+                    <img width="12" />
+                    <img class="mb-2" src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
+                    <img width="12" />
+                    <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo"  />
+                    <img class="mb-2" width="12" />
+                    <img src="https://skillicons.dev/icons?i=bash" height="40" alt="bash logo"  />
+                </div>
+                
+                <h4 class="fw-bolder mt-3 text-light text-align">Skills: </h4>
+                
+                <div class="rounded border border-secondary py-4 px-2" style="height: auto;">
+                    <div style="display: flex; flex-direction: row;">
+                        <div style="width: 50%; padding: 10px">
+                            <p class="text-light p1 fw-bolder">Python</p>
+                            <div style="width: 100%; background-color: #f0f0f0; border-radius: 10px; overflow: hidden; height: 20px;">
+                                <div style="width: 85%; background-color: yellow; height: 100%; border-radius: 10px 0 0 10px; text-align: center; line-height: 20px;">85%</div>
+                            </div>
+                        </div>
+                        <div style="width: 50%; padding: 10px">
+                            <p class="text-light p1 fw-bolder">PHP</p>
+                            <div style="width: 100%; background-color: #f0f0f0; border-radius: 10px; overflow: hidden; height: 20px;">
+                                <div style="width: 80%; background-color: yellow; height: 100%; border-radius: 10px 0 0 10px; text-align: center; line-height: 20px;">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <div style="width: 50%; padding: 10px">
+                            <p class="text-light p1 fw-bolder">Javascript</p>
+                            <div style="width: 100%; background-color: #f0f0f0; border-radius: 10px; overflow: hidden; height: 20px;">
+                                <div style="width: 70%; background-color: yellow; height: 100%; border-radius: 10px 0 0 10px; text-align: center; line-height: 20px;">70%</div>
+                            </div>
+                        </div>
+                        <div style="width: 50%; padding: 10px">
+                            <p class="text-light p1 fw-bolder">SQL</p>
+                            <div style="width: 100%; background-color: #f0f0f0; border-radius: 10px; overflow: hidden; height: 20px;">
+                                <div style="width: 75%; background-color: yellow; height: 100%; border-radius: 10px 0 0 10px; text-align: center; line-height: 20px;">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <div style="width: 50%; padding: 10px">
+                            <p class="text-light p1 fw-bolder">Html</p>
+                            <div style="width: 100%; background-color: #f0f0f0; border-radius: 10px; overflow: hidden; height: 20px;">
+                                <div style="width: 75%; background-color: yellow; height: 100%; border-radius: 10px 0 0 10px; text-align: center; line-height: 20px;">75%</div>
+                            </div>
+                        </div>
+                        <div style="width: 50%; padding: 10px">
+                            <p class="text-light p1 fw-bolder">CSS</p>
+                            <div style="width: 100%; background-color: #f0f0f0; border-radius: 10px; overflow: hidden; height: 20px;">
+                                <div style="width: 80%; background-color: yellow; height: 100%; border-radius: 10px 0 0 10px; text-align: center; line-height: 20px;">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+     </div>
+
+    <script src="{{url_for('static', filename='js/scroll-animation.js')}}"></script>
+    <script src="{{url_for('static', filename='js/navigation_menu.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
