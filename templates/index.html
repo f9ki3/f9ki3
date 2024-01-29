@@ -71,9 +71,9 @@
         <div class="row p-4" id="div-web">
             <h3 class="fw-bolder text-light">{{ projects_data["web-projects"] }}</h3>
                 {% for project in projects_data["projects"] %}
-                <div class="col-12 col-md-4 py-3">
+                <div class="col-12 col-md-4 ">
                     <a href="{{ url_for('view_project', title=project['title'], description=project['description'], img1=project['img1'], img2=project['img2'], img3=project['img3'], img4=project['img4'], img5=project['img5']) }}" style="text-decoration: none">
-                        <div class="container div-card rounded py-4 px-4" >
+                        <div class=" div-card rounded mt-4" >
                             <div class="rounded div-img">
                                 {% if project["img1"] %}
                                     <img src="{{ project["img1"] }}" alt="screenshots" class="rounded">
@@ -95,9 +95,9 @@
         <div class="row p-4" id="div-console">
             <h3 class="fw-bolder text-light">{{ console_data["console_projects"] }}</h3>
                 {% for project in console_data["projects"] %}
-                <div class="col-12 col-md-4 py-3">
+                <div class="col-12 col-md-4">
                     <a href="{{ url_for('view_console', title=project['title'], description=project['description'], img1=project['img1'], img2=project['img2'], img3=project['img3'], img4=project['img4'], img5=project['img5']) }}" style="text-decoration: none">
-                        <div class="container div-card rounded py-4 px-4" >
+                        <div class=" div-card rounded mt-4" >
                             <div class="rounded div-img">
                                 {% if project["img1"] %}
                                     <img src="{{ project["img1"] }}" alt="screenshots" class="rounded">

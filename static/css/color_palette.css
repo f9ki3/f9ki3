@@ -40,7 +40,8 @@
   }
   
   .div-card{
-    height: 410px; 
+    padding: 20px;
+    height: 400px; 
     color: white;
     background-color: rgb(13, 22, 73);
     font-size: 12px;
@@ -194,5 +195,16 @@
   }
   .computer-pixel{
     display: none;
+  }
+  .div-card{
+    padding: 0px;
+    height: 300px;
+    background-color: transparent;
+  }
+  .div-card:hover{
+    background-color: transparent;
+  }
+  .div-card img{
+    border: 1px solid gray;
   }
 }
