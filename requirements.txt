@@ -1,2 +1,3 @@
-Flask==<your_flask_version>
-gunicorn==<your_gunicorn_version>
+Flask==2.3.3
+gunicorn==20.1.0
+
