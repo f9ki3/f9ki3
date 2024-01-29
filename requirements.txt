@@ -1,0 +1,2 @@
+Flask==<your_flask_version>
+gunicorn==<your_gunicorn_version>
