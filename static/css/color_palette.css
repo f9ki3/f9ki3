@@ -192,4 +192,7 @@
   .div-card{
     height: 370px;
   }
+  .computer-pixel{
+    display: none;
+  }
 }
