@@ -207,4 +207,8 @@
   .div-card img{
     border: 1px solid gray;
   }
+  .img-intro{
+    width: 100%;
+    height: 50px;
+  }
 }
