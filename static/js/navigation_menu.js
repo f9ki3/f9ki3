@@ -23,6 +23,23 @@ function about(){
     $select('#div-about').style.display = 'flex';
 }
 
+function graphic_design() {
+    // Replace the URL with the desired link
+    var link = "https://www.pinterest.ph/fykkkie/graphic-arts/";
+    
+    // Open the link in a new tab
+    window.open(link, '_blank');
+}
+
+function tech() {
+    // Replace the URL with the desired link
+    var link = "https://www.instagram.com/stories/highlights/17864311289744963/";
+    
+    // Open the link in a new tab
+    window.open(link, '_blank');
+}
+
+
 function $select(selector){
     return document.querySelector(selector)
 }
