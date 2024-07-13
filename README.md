@@ -1,7 +1,7 @@
 <img src="static/img/your_cool_intro(6).gif">
 
-<h2 align="left">Technology and Tools:</h2>
 ###
+<h2 align="left">FAQ</h2>
 
 <p align="left">I'm Fyke Lleva, also known as f9ki3. Currently, I am a student pursuing a Bachelor of Science in Information Technology. Although I haven't graduated yet, I am in my 4th year and actively applying my knowledge by working on projects within my tech stack. I've created a repository containing small projects that serve as a practical reflection of what I've learned throughout my academic journey.</p>
 
