@@ -3,11 +3,12 @@
 
 ###
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=f9ki3&theme=merko&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=f9ki3&theme=merko&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=f9ki3&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=f9ki3&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=merko&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=f9ki3&locale=en&mode=daily&theme=merko&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
+</div>
 
+###
 
 <h2 align="left">About Me</h2>
 
