@@ -1,4 +1,4 @@
-<img src="static/img/your-cool-intro-6--unscreen.gif">
+<img src="static/img/your_cool_intro(6).gif">
 
 ###
 <h2 align="left">About Me</h2>
