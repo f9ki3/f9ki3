@@ -2,7 +2,12 @@
 
 
 ###
+<div align="left">
+  <img src="https://streak-stats.demolab.com?user=f9ki3&locale=en&mode=daily&theme=merko&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=f9ki3&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=true&order=2" height="150" alt="languages graph"  />
+</div>
 
+###
 <h2 align="left">About Me</h2>
 
 <p align="left">I'm Fyke Lleva, also known as f9ki3. Currently, I am a student pursuing a Bachelor of Science in Information Technology. Although I haven't graduated yet, I am in my 4th year and actively applying my knowledge by working on projects within my tech stack. I've created a repository containing small projects that serve as a practical reflection of what I've learned throughout my academic journey.</p>
