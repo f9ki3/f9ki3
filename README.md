@@ -12,10 +12,9 @@
 <h2 align="left">Github Statistics</h2>
 
 <div align="left">
-  <img src="https://streak-stats.demolab.com?user=f9ki3&locale=en&mode=daily&theme=merko&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=f9ki3&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=true&order=2" height="150" alt="languages graph"  />
 </div>
 
-[![](https://visitcount.itsvg.in/api?id=f9ki3&icon=0&color=0)](https://visitcount.itsvg.in)
+[![Check out f9ki3's profile on stardev.io](https://stardev.io/developers/f9ki3/badge/languages/global.svg)](https://stardev.io/developers/f9ki3)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
