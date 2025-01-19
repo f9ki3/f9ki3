@@ -11,6 +11,9 @@
 ###
 <h2 align="left">Github Statistics</h2>
 
-[![Check out f9ki3's profile on stardev.io](https://stardev.io/developers/f9ki3/badge/languages/global.svg)](https://stardev.io/developers/f9ki3)
+<div align="left">
+  ![f9ki3's Stats](https://github-readme-stats.vercel.app/api?username=f9ki3&theme=dark&show_icons=true&hide_border=true&count_private=true)
+  ![f9ki3's Streak](https://github-readme-streak-stats.herokuapp.com/?user=f9ki3&theme=dark&hide_border=true)
+</div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
