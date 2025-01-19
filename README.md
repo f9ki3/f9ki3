@@ -11,10 +11,6 @@
 ###
 <h2 align="left">Github Statistics</h2>
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=f9ki3&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=true&order=2" height="150" alt="languages graph"  />
-</div>
-
 [![Check out f9ki3's profile on stardev.io](https://stardev.io/developers/f9ki3/badge/languages/global.svg)](https://stardev.io/developers/f9ki3)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
