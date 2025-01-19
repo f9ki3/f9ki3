@@ -11,6 +11,6 @@
 ###
 <h2 align="left">Github Statistics</h2>
 
-![f9ki3's Streak](https://github-readme-streak-stats.herokuapp.com/?user=f9ki3&theme=dark&hide_border=true)
+![f9ki3's Stats](https://github-readme-stats.vercel.app/api?username=f9ki3&theme=dark&show_icons=true&hide_border=true&count_private=true)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
